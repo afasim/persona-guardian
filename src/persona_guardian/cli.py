@@ -256,7 +256,3 @@ def steer_generate(
     except Exception as e:
         typer.secho(f"✗ Error: {str(e)}", fg=typer.colors.RED, bold=True, err=True)
         raise typer.Exit(code=1)
-
-
-if __name__ == "__main__":
-    app()
